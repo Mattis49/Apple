@@ -34,7 +34,7 @@ header ul li{
 }
 
 
-#iphone-image{
+#first-section{
     background-image: url(src/1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,6 @@ header ul li{
     display: flex;
 
 }
-
 
 #title{
     color: white;
