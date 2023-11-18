@@ -33,44 +33,68 @@ header ul li{
     display: flex;
 }
 
-
-#first-section{
-    background-image: url(src/1.png);
-    background-repeat: no-repeat;
+.section{background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     align-items: center;
     height: 736px;
     margin-top: -1px;
-    display: flex;
+    display: flex;}
 
+.first-section{
+    background-image: url(src/1.png);
+    
 }
 
-#title{
+.second-section{
+    background-image: url(src/2.png);
+}
+
+.third-section{
+    background-image: url(src/3.png);
+}
+
+.title{
     color: white;
     margin-bottom: 18px;
 }
-
-#iphone-button a{
+.title2{
+    color: #1D1D1F;
+    margin-bottom: 18px;
+}
+.iphone-button a{
     color:#2997FF ;
     font-size: 19px;
     padding: 17px;
 }
 
-#iphone-box{
+.iphone-box{
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 55px auto auto auto;
 }
 
-#title h1{
+.title h1{
     font-size: 60px;
 }
-
-#title h2{
+.title2 h1{
+    font-size: 52px;
+    text-align: center;
+}
+.title h2{
     font-size: 24px;
     text-align: center;
     font-weight: 400;
 }
 
+.title2 h2{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#watch{
+    height: 38px;
+    
+}
