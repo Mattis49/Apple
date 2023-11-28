@@ -96,5 +96,53 @@ header ul li{
 
 #watch{
     height: 38px;
-    
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid div{
+   height: 580px;
+   display: flex;
+   margin: 5px;
+}
+
+#ipad{
+    background-image: url(src/ipad.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#mac{
+    background-image: url(src/mac.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#homepod{
+    background-image: url(src/homepod.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+#airpods{
+    background-image: url(src/airpods.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#fitness{
+    background-image: url(src/fitness.png);
+    background-size: cover;
+    background-position: center;  
+}
+
+#bracelet{
+    background-image: url(src/bracelet.png);
+    background-size: cover;
+    background-position: center;
 }
