@@ -107,7 +107,6 @@ header ul li{
 
 #grid div{
    height: 580px;
-   display: flex;
    margin: 5px;
 }
 
@@ -145,4 +144,31 @@ header ul li{
     background-image: url(src/bracelet.png);
     background-size: cover;
     background-position: center;
+}
+
+.gridtext{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.gridtext h1{
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.gridtext p{
+    font-size: 19px;
+}
+
+.gridtext div a{
+    font-size: 17px;
+    padding: 17px;
+    color: #0066CC;
+}
+
+#ipad{
+    margin-top: auto;
+
 }
