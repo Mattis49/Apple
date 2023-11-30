@@ -39,7 +39,8 @@ header ul li{
     align-items: center;
     height: 736px;
     margin-top: -1px;
-    display: flex;}
+    display: flex;
+    margin-bottom: 10px;}
 
 .first-section{
     background-image: url(src/1.png);
@@ -171,4 +172,8 @@ header ul li{
 #ipad{
     margin-top: auto;
 
+}
+
+.whitetext{
+    color: white;
 }
