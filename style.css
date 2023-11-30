@@ -193,8 +193,10 @@ header ul li{
     display: flex;
 }
 
-#filmbackground img{
-display: flex;
+#filmbackground{
+background-image: url(/src/liaison.png);
+
+width: 1250px !important;
 }
 
 #filmtext{
@@ -203,6 +205,7 @@ display: flex;
     align-items: end;
     display: flex;
     text-align: center;
+    width: 1250px;
 }
 #films div a{
     color: black;
@@ -223,4 +226,38 @@ display: flex;
     margin-left: 30px;
     margin-bottom: 15px;
     font-weight: 18px;
+}
+
+
+#dots{
+    height: 38px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dots div{
+    height: 8px;
+    width: 8px;
+    background-color: #00000029;
+    border-radius: 100%;
+}
+footer{
+    
+    
+    background-color:#F5F5F7;
+}
+
+
+
+#note{
+    max-width: 70%;
+    padding-top: 17px;
+    margin: auto;
+
+}
+
+#note p{
+    margin-bottom: 12px;
 }
